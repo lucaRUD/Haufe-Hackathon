@@ -21,4 +21,4 @@ app.get("/getdata", (req, res) => {
       res.send(response.data.result.records);
     });
 });
-// response.data.result.records
+
