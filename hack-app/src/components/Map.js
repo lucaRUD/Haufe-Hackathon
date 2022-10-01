@@ -5,6 +5,11 @@ import { Icon } from 'leaflet';
 import './Map.css';
 
 const Haufe = [45.75951, 21.220871];
+let list = [
+  { long: 21.220764, lat: 45.777078 },
+  { long: 21.223086, lat: 45.775032 },
+  { long: 21.242933, lat: 45.745192 },
+];
 
 function Map() {
   return (
